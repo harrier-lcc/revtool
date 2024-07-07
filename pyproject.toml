@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "revtool"
+authors = [
+    {name = "Harry Lee", email = "harrier@b6a.black"},
+]
+description = "A Python framework for reverse engineering analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = []
+license = {text = "GNU GPLv3"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+
+[project.scripts]
